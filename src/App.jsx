@@ -66,7 +66,7 @@ function App() {
           </div>
           <div className="middle">
           <div className="buttons"></div>
-          <div className="buttons"></div>
+          <div className="buttons" onClick={sts}></div>
           <div className="buttons"></div>
           </div>
           <div className="bottom">
