@@ -1,0 +1,55 @@
+.container{
+    margin:auto;
+    max-width: 600px;
+    height: auto;
+    border: 1px solid black;
+}
+
+
+.controlsInteractive{
+    /* border: 1px solid blue; */
+    margin: -37px 0px 0px 0px;  
+}
+
+.controlsInteractive.bottom{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    
+}
+
+
+.controlsPanel{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 100px;
+}
+
+.statusSection{
+    display: flex;
+    
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    
+}
+
+.col label{
+    min-width: 100px;
+    color: tan;
+}
+.buttons{
+    border: 1px solid red;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    
+}
+
+.buttons:hover{
+    background-color: red;
+}
+
