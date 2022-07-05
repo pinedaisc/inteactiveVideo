@@ -3,7 +3,7 @@ import video from './assets/video/videoTest.mp4'
 import './App.css'
 
 function App() {
-
+  // const video = 'https://youtu.be/F2wEf_alQzw'
   const videop = useRef(null)
   const currentTimeInput = useRef(null)
   const [play, setplay] = useState(false)
@@ -11,10 +11,10 @@ function App() {
 
 
 
-  useEffect(() => {
-    console.log(videop)
-    videop.current.volume = 0.5
-  }, [])
+  // useEffect(() => {
+  //   console.log(videop)
+  //   videop.current.volume = 0.5
+  // }, [])
 
   
   const handlePlaying = (e) => {
@@ -52,16 +52,22 @@ function App() {
           id='video'
           ref={videop}
           src={video}
+          crossOrigin='true'
           width='100%'
+          height='100%'
           controls
           onTimeUpdate={handlePlaying}
         />
         <div className="controlsInteractive">
           <div className="top">
-
+          <div className="buttons"></div>
+          <div className="buttons"></div>
+          <div className="buttons"></div>
           </div>
           <div className="middle">
-
+          <div className="buttons"></div>
+          <div className="buttons"></div>
+          <div className="buttons"></div>
           </div>
           <div className="bottom">
             <div className="buttons"></div>
