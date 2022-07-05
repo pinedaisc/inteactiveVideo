@@ -59,21 +59,7 @@ function App() {
           onTimeUpdate={handlePlaying}
         />
         <div className="controlsInteractive">
-          <div className="top">
           <div className="buttons"></div>
-          <div className="buttons"></div>
-          <div className="buttons"></div>
-          </div>
-          <div className="middle">
-          <div className="buttons"></div>
-          <div className="buttons" onClick={sts}></div>
-          <div className="buttons"></div>
-          </div>
-          <div className="bottom">
-            <div className="buttons"></div>
-            <div className="buttons"></div>
-            <div className="buttons"></div>
-          </div>
         </div>
       </div>
       <div className="controlsPanel">

@@ -24,29 +24,6 @@
     z-index: 1;
 }
 
-.top{
-    display: inline-flex;
-    align-items: flex-start;
-    border: 1px solid red;
-    justify-content: space-between;
-
-}
-
-.middle{
-    display: inline-flex;
-    align-items: center;
-    border: 1px solid red;
-    justify-content: space-between;
-
-}
-
-.bottom{
-    display: inline-flex;
-    align-items: flex-end;
-    padding-bottom: 5px;
-    /* justify-content: space-between; */
-    justify-content: space-between;
-}
 
 .controlsPanel{
     margin: auto;
@@ -75,6 +52,9 @@
     width: 25px;
     height: 25px;
     cursor: pointer;
+    position: relative;
+    top: 50%;
+    left: 50%;
 }
 
 .buttons:hover{
